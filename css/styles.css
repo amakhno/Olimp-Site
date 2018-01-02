@@ -1,0 +1,163 @@
+body {
+    font-family: OpenSans, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    color: rgb(50, 60, 141);
+    background-color:  rgb(255, 255, 255);
+}
+
+.banner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+    justify-content:space-between;
+}
+
+.header {
+    flex-grow: 2;
+    padding: 20px;
+    font-size: 3.5em;
+}
+
+.item2 {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: right;
+    font-size: 1.2em;
+}
+
+.number {
+    font-weight: bold;
+}
+
+.nav-container {
+    background-color:  rgb(50, 60, 141);
+}
+
+.article-container {
+    background-color:  rgb(255, 255, 255);
+}
+
+.footer-container {
+    background-color:  rgb(50, 60, 141);
+}
+
+.nav-menu {
+    width: 50%;
+    margin: 0 auto;
+    color: white;    
+    padding: 10px 10px 15px 10px;
+}
+
+.nav-menu li {
+    display: inline-block;
+}
+
+.nav-menu a {
+    color: white;
+    text-decoration-line: none;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    margin: 10px 20px 0 0;
+    font-size: 1.2em;
+}
+
+.nav-menu a:hover {
+    border-bottom: none;
+}
+
+.article-wrap {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.article-body {
+    margin: 20px;
+}
+
+.article-body h1 {
+    padding-bottom: 15px;
+    font-size: 2em;
+    font-weight: bold;
+    color: darkgrey;
+    font-family: "Roboto Bold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.article-body p {
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    padding-bottom: 24px;
+    line-height: 1.4em;
+    font-size: 1em;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.footer strong {
+    font-weight: bold;
+}
+
+.footer-wrap {
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer1 {
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.footer2 {
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.footer3 {
+    color: rgb(255, 255, 255);
+    flex-grow: 1;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.article-body ol {
+    padding-left: 30px;
+    list-style: decimal;
+}
+
+.article-body li {
+    padding-bottom: 20px;
+}
+
+.article-body a.pdf {
+    background-image: url(/img/pdf.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 50px;
+    padding: 18px 0 100px 70px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(50, 60, 141);
+}
+
+.article-body a.doc {
+    background-image: url(/img/doc.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 50px;
+    padding: 18px 0 100px 70px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: rgb(50, 60, 141);
+}
+
+p.link {
+    padding-top: 20px;
+}
